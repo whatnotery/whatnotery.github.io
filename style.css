@@ -2,11 +2,6 @@ body {
   margin: 0;
 }
 
-nav {
-  background: beige url(texture.png);
-  background-size: contain;
-}
-
 #profpic {
   border-radius: 50%;
 }
