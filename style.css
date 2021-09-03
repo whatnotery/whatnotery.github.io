@@ -1,7 +1,129 @@
 body {
-  margin: 0;
+  margin: 0px;
+  background: url(img/stardust.png);
+  background-repeat: repeat;
+  color: #B8F2E6;
 }
 
-#profpic {
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2.5em;
+}
+
+Nav #profpic {
   border-radius: 50%;
+  border: #B8F2E6 5px double;
+  height: 50%;
+  width: auto;
+}
+
+
+.nav-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 2em;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 900;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.15rem;
+}
+
+main>section {
+  border-left: #B8F2E6 5px double;
+  border-right: #B8F2E6 5px double;
+  border-radius: 2%;
+  margin: 1rem 1rem;
+  padding: 2rem;
+  max-width: 769px;
+}
+
+a,
+a:visited,
+a:active {
+  color: #B8F2E6;
+  text-decoration: none;
+}
+
+a:hover{
+  text-shadow: 1px 1px 30px #B8F2E6;
+}
+
+.portfolio-item {
+  display: flex;
+  align-items: center;
+
+}
+
+.portfolio-txt {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  padding-left: 1em;
+}
+
+.portfolio-img {
+  border-radius: 10px;
+  height: auto;
+  max-width: 25em;
+}
+
+@media (max-width: 790px) {
+  Nav #profpic {
+    border-radius: 50%;
+    max-width: 50%;
+    margin-top: 2.5em;
+  }
+
+  .portfolio-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+.github-link {
+  order: -2; }
+
+}
+
+@media (max-width: 650px) {
+  Nav #profpic {
+    border-radius: 50%;
+    max-width: 50%;
+    margin-top: 2.5em;
+  }
+
+  nav.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 }
