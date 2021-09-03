@@ -3,6 +3,7 @@ body {
   background: url(img/stardust.png);
   background-repeat: repeat;
   color: #B8F2E6;
+  font-family:'Nunito', sans-serif ;
 }
 
 .container-fluid {
@@ -94,6 +95,7 @@ a:hover{
   height: auto;
   max-width: 25em;
 }
+
 
 @media (max-width: 790px) {
   Nav #profpic {
