@@ -106,7 +106,7 @@ a:hover{
     display: flex;
     flex-direction: column;
   }
-
+}
   
 @media (max-width: 650px) {
   Nav #profpic {
