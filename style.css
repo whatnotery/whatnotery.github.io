@@ -12,14 +12,14 @@ body {
   align-items: center;
 }
 
-nav.nav {
+header.header {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin: 2.5em;
 }
 
-Nav #profpic {
+header #profpic {
   border-radius: 50%;
   border: #B8F2E6 5px double;
   height: 50%;
@@ -27,7 +27,7 @@ Nav #profpic {
 }
 
 
-.nav-text {
+.header-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -98,7 +98,7 @@ a:hover{
 
 
 @media (max-width: 790px) {
-  Nav #profpic {
+  header #profpic {
     border-radius: 50%;
     max-width: 50%;
     margin-top: 2.5em;
@@ -112,13 +112,13 @@ a:hover{
   
 @media (max-width: 650px){
 
-  Nav #profpic {
+  header #profpic {
     border-radius: 50%;
     max-width: 50%;
     margin-top: 2.5em;
   }
 
-  nav.nav {
+  header.header{
     display: flex;
     flex-direction: column;
     align-items: center;
