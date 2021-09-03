@@ -107,11 +107,7 @@ a:hover{
     flex-direction: column;
   }
 
-.github-link {
-  order: -2; }
-
-}
-
+  
 @media (max-width: 650px) {
   Nav #profpic {
     border-radius: 50%;
