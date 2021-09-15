@@ -3,7 +3,7 @@ body {
   background: url(img/stardust.png);
   background-repeat: repeat;
   color: #B8F2E6;
-  font-family:'Nunito', sans-serif ;
+  font-family:'Montserrat', sans-serif ;
 }
 
 .container-fluid {
@@ -37,9 +37,8 @@ header #profpic {
 h1,
 h2,
 h3 {
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
-  font-weight: 900;
+  font-family: 'Azeret Mono', monospace;
+  font-weight: 500;
 }
 
 h1 {
@@ -48,7 +47,6 @@ h1 {
 }
 
 h2 {
-  font-weight: 900;
   font-size: 1.3rem;
 }
 
@@ -57,9 +55,8 @@ h3 {
 }
 
 main>section {
-  border-left: #B8F2E6 5px double;
-  border-right: #B8F2E6 5px double;
-  border-radius: 2%;
+  border-top: #B8F2E6 2.5px solid;
+  border-bottom: #B8F2E6 2.5px solid;
   margin: 1rem 1rem;
   padding: 2rem;
   max-width: 769px;
