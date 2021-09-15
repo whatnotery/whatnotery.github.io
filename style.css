@@ -73,9 +73,14 @@ a:active {
   border-bottom: solid #B8F2E6 3px;
 }
 
+.txt-center {
+  text-align: center;
+}
 
 nav {
   text-align: center;
+  border-top: #B8F2E6 2.5px solid;
+
 }
 
 
@@ -103,9 +108,6 @@ li.complete:before { content: '\2705'; margin-left: -25px; margin-right: 4px; }
 li.soon:before { content: '\1F51C '; margin-left: -25px; margin-right: 4px; } 
 li.future:before { content: '\1F192  '; margin-left: -25px; margin-right: 4px; } 
 
-.txt-center {
-  text-align: center;
-}
 
 .portfolio-item {
   display: flex;
