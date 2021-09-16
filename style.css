@@ -2,10 +2,11 @@ body {
   margin: 0px;
   background-color: #6b6b6b;
   color: #B8F2E6;
-  font-family:'Montserrat', sans-serif ;
+  font-family: 'Montserrat', sans-serif;
   background-attachment: fixed;
   background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23b8f2e6' fill-opacity='0.08'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-} 
+}
+
 .container-fluid {
   display: flex;
   flex-direction: column;
@@ -17,7 +18,7 @@ header.header {
   flex-direction: row;
   justify-content: center;
   margin: 2.5em;
-  
+
 }
 
 header #profpic {
@@ -38,9 +39,7 @@ header #profpic {
 
 h1,
 h2,
-h3 
-h4
-{
+h3 h4 {
   font-family: 'Azeret Mono', monospace;
   font-weight: 500;
 }
@@ -68,13 +67,15 @@ a:active {
 
 }
 
- a:hover{
+a:hover {
   padding-bottom: .25rem;
   border-bottom: solid #B8F2E6 3px;
 }
 
 
 nav {
+  display: flex;
+  border-top: #B8F2E6 2.5px solid;
   text-align: center;
 }
 
@@ -99,9 +100,23 @@ main>section {
   justify-content: space-around;
 }
 
-li.complete:before { content: '\2705'; margin-left: -25px; margin-right: 4px; } 
-li.soon:before { content: '\1F51C '; margin-left: -25px; margin-right: 4px; } 
-li.future:before { content: '\1F192  '; margin-left: -25px; margin-right: 4px; } 
+li.complete:before {
+  content: '\2705';
+  margin-left: -25px;
+  margin-right: 4px;
+}
+
+li.soon:before {
+  content: '\1F51C ';
+  margin-left: -25px;
+  margin-right: 4px;
+}
+
+li.future:before {
+  content: '\1F192  ';
+  margin-left: -25px;
+  margin-right: 4px;
+}
 
 .txt-center {
   text-align: center;
@@ -150,8 +165,8 @@ li.future:before { content: '\1F192  '; margin-left: -25px; margin-right: 4px; }
     justify-content: center;
   }
 }
-  
-@media (max-width: 680px){
+
+@media (max-width: 680px) {
 
   header #profpic {
     border-radius: 50%;
@@ -159,11 +174,19 @@ li.future:before { content: '\1F192  '; margin-left: -25px; margin-right: 4px; }
     margin-top: 2.5em;
   }
 
-  header.header{
+  header.header {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
   }
+}
+
+.blog-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
 }
