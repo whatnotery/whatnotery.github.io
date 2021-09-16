@@ -72,11 +72,16 @@ a:hover {
   border-bottom: solid #B8F2E6 3px;
 }
 
+.txt-center {
+  text-align: center;
+}
 
 nav {
   display: flex;
   border-top: #B8F2E6 2.5px solid;
   text-align: center;
+  border-top: #B8F2E6 2.5px solid;
+
 }
 
 
@@ -118,9 +123,6 @@ li.future:before {
   margin-right: 4px;
 }
 
-.txt-center {
-  text-align: center;
-}
 
 .portfolio-item {
   display: flex;
