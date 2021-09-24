@@ -85,11 +85,6 @@ nav {
 }
 
 
-.about-pddng {
-  padding-left: 7px;
-}
-
-
 
 main>section {
   border-top: #93ffee 2.5px solid;
@@ -155,6 +150,10 @@ li.future:before {
     border-radius: 50%;
     max-width: 50%;
     margin-top: 2.5em;
+  }
+
+  .about {
+    margin-left: 1rem;
   }
 
   .portfolio-item {
