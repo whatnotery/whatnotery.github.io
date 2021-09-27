@@ -9,7 +9,7 @@
     "deploy": "gh-pages -d _site",
     "debug": "DEBUG=* npx eleventy"
   },
-  "homepage": "/whatnotery.github.io",
+  "homepage": "/",
   "keywords": [],
   "author": "",
   "license": "ISC",
