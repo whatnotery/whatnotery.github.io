@@ -1,0 +1,21 @@
+{
+  "name": "11",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "build": "npx eleventy",
+    "build": "env NODE_ENV=production npx eleventy --pathprefix 'whatnotery.github.io'",
+    "serve": "npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  },
+  "dependencies": {
+    "eleventy-plugin-read-more": "^1.0.2"
+  }
+}
