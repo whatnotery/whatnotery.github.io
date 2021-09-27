@@ -21,6 +21,7 @@ module.exports = config => {
     config.addWatchTarget('src/css');
     return {
         dir: {
+          pathPrefix: "/whatnotery.github.io/",
             input: 'src',
             output: '_site'
         }
