@@ -10,14 +10,14 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@300;400;500&family=Montserrat&display=swap"
       rel="stylesheet">
-    <link rel="stylesheet" href="{{'css/style.css' | url}}">
+    <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
     <div class="container-fluid">
       <header class="header">
 
-        <img id="profpic" class="" src="{{'/img/profile.jpg' | url}}"
+        <img id="profpic" class="" src="img/profile.jpg"
           alt="An image of Jos O'shea in an outside setting wearing a black 5
           panel cap with a blue denim shirt, and green wool cardigan over top
           with a floral quilt pattern bandanna around their neck">
@@ -25,7 +25,7 @@
           <h1 class="h1">Hi There!</h1>
           <h2 class="header-intro">I'm Jos O'shea, <br>I'm an aspiring front end
             developer.<br>
-            Check out what I've been writing!
+            Check out what I've been working on!
           </h2>
         </div>
       </header>
@@ -71,10 +71,9 @@
                     8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0
                     1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16
                     11.801V4.697l-5.803 3.546z" />
-                  </svg>&nbsp;Email</a></h3>
-                              &nbsp;&nbsp;&nbsp;
+                  </svg>&nbsp;Email</a></h3>            &nbsp;&nbsp;&nbsp;
 
-             <h3><a href="{{'/blog'| url}}"><svg xmlns="http://www.w3.org/2000/svg"
+            <h3><a href="/blog"><svg xmlns="http://www.w3.org/2000/svg"
                   width="16" height="16" fill="currentColor" class="bi
                   bi-journal" viewBox="0 0 16 16">
                   <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0
@@ -87,11 +86,44 @@
                     </svg>&nbsp;Blog</a></h3>
               </nav>
               <main>
-                <section>
-                  <img src="{{image}}">
-                  <h1>{{title}}</h1>
-                   {{content|safe}}
-                </section>
+
+                       <img src="img/hellabike.PNG" class="portfolio-img" alt="">
+    <div class="portfolio-txt">
+      <h2><a href="https://hella.bike/" target="_blank" rel="noopener
+          noreferrer">Hella.Bike</a></h2> <br>
+      <p> Very much a work in progress. The domain was originally
+        bought
+        for a .bike vanity email. As I progress I'm going to turn it
+        into a JS based browser game about an alien riding a bike.
+        Login
+        with anything for a "pre-alpha preview"<br> See it on GitHub:
+        <a class="github-link"
+          href="https://github.com/whatnotery/hella.bike/"
+          target="_blank" rel="noopener noreferrer"><svg
+            xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+            fill="currentColor" class="bi bi-github" viewBox="0 0 16
+            16">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47
+              7.59.4.07.55-.17.55-.38
+              0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01
+              1.08.58 1.23.82.72 1.21 1.87.87
+              2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+              0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0
+              .67-.21
+              2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27
+              1.53-1.04
+              2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82
+              2.15 0
+              3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01
+              1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16
+              8c0-4.42-3.58-8-8-8z" />
+            </svg></a></p>
+
+      </div>
+
+
+
+
 
               </main>
             </body>
