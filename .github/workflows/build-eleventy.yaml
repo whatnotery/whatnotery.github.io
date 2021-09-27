@@ -19,4 +19,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           publish_dir: ./_site 
-          personal_token: ${{ secrets.Eleventy}}
+          personal_token: ${{ secrets.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}}
