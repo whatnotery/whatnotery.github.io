@@ -144,16 +144,12 @@ li.future:before {
   max-width: 25em;
 }
 
-<<<<<<< HEAD
 .blog-wrap {
   display: flex;
   flex-direction: column;
   align-items: center;}
 
 .blog-image {
-=======
-section > img {
->>>>>>> parent of c962caf (CSS changes for blog)
   border-radius: 10px;
   height: auto;
   max-width: 40em;

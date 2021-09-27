@@ -10,7 +10,7 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@300;400;500&family=Montserrat&display=swap"
       rel="stylesheet">
-    <link rel="stylesheet" href="{{'css/style.css' | url}}">
+    <link rel="stylesheet" href="{{'/css/style.css' | url}}">
   </head>
 
   <body>
@@ -88,7 +88,7 @@
               </nav>
               <main>
                 <section>
-                  <img src="{{image}}">
+                  <img class="blog-image" src="{{image}}">
                   <h1>{{title}}</h1>
                    {{content|safe}}
                 </section>
