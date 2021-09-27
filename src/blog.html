@@ -1,0 +1,13 @@
+--- 
+layout: blog.njk
+---
+
+
+{%- for blog in collections.blog %}
+<section>
+    <h2>{{ blog.date | postDate }}</h2>
+<h1><a href="{{blog.url}}">{{blog.data.title}}</a></h1>
+
+    <p>{{ blog.templateContent |excerpt |safe }} <em><a href="{{ blog.url }}"> continue reading &rarr;</a></em></p>
+</section>
+{% endfor %}
