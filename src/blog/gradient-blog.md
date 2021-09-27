@@ -19,8 +19,9 @@ The code creates a a random RGB color by generating a random number for each of 
 After that I wrote a function to  use the `genRGB()` function to write a full CSS linear-gradient that could then be applied as a style to the body of the page. That code looked like this:
 ```
 function returnGradient() {
-    let deg =Math.floor(Math.random() * 360);
-    return `linear-gradient(${deg}deg,${genRGB()},${genRGB()},${genRGB()})`
+let deg =Math.floor(Math.random() * 360);
+return `linear-gradient
+(${deg}deg,${genRGB()},${genRGB()},${genRGB()})`
 
   };
 ```
