@@ -145,12 +145,6 @@ li.future:before {
   max-width: 25em;
 }
 
-section > img {
-  border-radius: 10px;
-  height: auto;
-  max-width: 40em;
-}
-
 
 @media (max-width: 790px) {
   header #profpic {
