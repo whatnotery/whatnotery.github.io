@@ -9,7 +9,6 @@
     "deploy": "gh-pages -d _site",
     "debug": "DEBUG=* npx eleventy"
   },
-  "homepage": "/",
   "keywords": [],
   "author": "",
   "license": "ISC",
