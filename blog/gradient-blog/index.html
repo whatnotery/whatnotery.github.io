@@ -88,8 +88,10 @@
               </nav>
               <main>
                 <section>
+                <section class="blog-container">
+                <div class="blog-wrap">
                   <img class="blog-image" src="/img/randomgradient.PNG">
-                  <h1>Coding a random CSS gradient generator</h1>
+                  <h2 class="blog-title">Coding a random CSS gradient generator</h2>
                    <p>Over this past weekend I coded a <a href="https://joshea.dev/randomgradient/">random CSS gradient generator</a>. It was a fun exercise that I relied pretty heavily on the free version of <a href="https://runjs.app/">RunJS</a> to get everything working properly. I started with writing a function to <!--more--> generate RGB colors that looked like this:</p>
 <pre><code>function genRGB() {
  const r = Math.floor(Math.random() * 255);
@@ -102,7 +104,8 @@
 <p>After that I wrote a function to  use the <code>genRGB()</code> function to write a full CSS linear-gradient that could then be applied as a style to the body of the page. That code looked like this:</p>
 <pre><code>function returnGradient() {
     let deg =Math.floor(Math.random() * 360);
-    return `linear-gradient(${deg}deg,${genRGB()},${genRGB()},${genRGB()})`
+    return `linear-gradient
+    (${deg}deg,${genRGB()},${genRGB()},${genRGB()})`
 
   };
 </code></pre>
@@ -120,6 +123,9 @@ after that I called an event listener to the h1 variable looking for a click. wh
 <p><sup>1</sup> <sub>applying styles in this manner is not typically considered best practice as it applies them as inline styles which can be unwieldy to work with </sub></p>
 
                 </section>
+
+                   </div>
+              </section>
 
               </main>
             </body>
