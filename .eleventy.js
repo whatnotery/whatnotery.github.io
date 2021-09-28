@@ -9,7 +9,8 @@ module.exports = config => {
         'png',
         'jpg',
         'html',
-        'njk' 
+        'njk',
+        'CNAME' 
 
       ]);
       config.addFilter("postDate", (dateObj) => {
@@ -17,6 +18,7 @@ module.exports = config => {
       });
     config.addPassthroughCopy('src/img/');
     config.addPassthroughCopy('src/css/');
+    config.addPassthroughCopy('src/CNAME');
     config.addWatchTarget('src/img/');
     config.addWatchTarget('src/css');
     return {

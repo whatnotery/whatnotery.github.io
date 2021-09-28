@@ -3,7 +3,7 @@ layout: blog.njk
 ---
 
 
-{%- for blog in collections.blog %}
+{%- for blog in collections.blog reversed %}
 <section>
     <h2>{{ blog.date | postDate }}</h2>
 <h2><a href="{{blog.url}}">{{blog.data.title}}</a></h2>
