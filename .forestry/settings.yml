@@ -12,13 +12,19 @@ sections:
   label: Blog
   create: documents
   match: "**/*"
-  exclude: ".json"
+  exclude: "*.json"
+  new_doc_ext: ".md"
+  templates:
+  - blog-post
 - type: directory
   path: src/portfolio
   label: Portfolio
   create: documents
   match: "**/*"
-  new_doc_ext: html
+  exclude: "*.json"
+  new_doc_ext: ".md"
+  templates:
+  - portfolio-item
 upload_dir: src/img
 public_path: img
 front_matter_path: ''
