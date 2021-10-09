@@ -30,5 +30,6 @@ fields:
     required: true
 pages:
 - src/portfolio/bootstrap.md
+- src/portfolio/fizzbuzz.md
 - src/portfolio/gradient.md
 - src/portfolio/numberguesser.md
