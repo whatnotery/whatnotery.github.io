@@ -30,4 +30,5 @@ fields:
     required: true
 pages:
 - src/portfolio/bootstrap.md
+- src/portfolio/gradient.md
 - src/portfolio/numberguesser.md
