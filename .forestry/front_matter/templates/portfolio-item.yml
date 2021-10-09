@@ -28,3 +28,5 @@ fields:
   label: GitHub Link
   config:
     required: true
+pages:
+- src/portfolio/bootstrap.md
