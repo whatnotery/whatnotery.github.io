@@ -12,6 +12,7 @@ sections:
   label: Blog
   create: documents
   match: "**/*"
+  exclude: ".json"
 - type: directory
   path: src/portfolio
   label: Portfolio
