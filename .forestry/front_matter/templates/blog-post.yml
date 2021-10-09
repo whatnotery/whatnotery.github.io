@@ -1,0 +1,22 @@
+---
+label: Blog Post
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+  config:
+    required: true
+  default: post.njk
+- type: datetime
+  name: date
+  label: date
+  default: now
+- type: text
+  name: title
+  label: title
+  config:
+    required: true
+- type: text
+  name: image
+  label: image
