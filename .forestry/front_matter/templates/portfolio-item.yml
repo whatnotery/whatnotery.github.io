@@ -4,16 +4,27 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  config:
+    required: true
+  label: Project Name
 - type: datetime
   name: date
-  label: date
+  label: Date
+  config:
+    required: true
+  default: now
 - type: text
   name: image
-  label: image
+  label: Image
+  config:
+    required: true
 - type: text
   name: link
-  label: link
+  label: Demo Link
+  config:
+    required: true
 - type: text
   name: github
-  label: github
+  label: GitHub Link
+  config:
+    required: true
