@@ -18,6 +18,7 @@ module.exports = config => {
       });
     config.addPassthroughCopy('src/img/');
     config.addPassthroughCopy('src/css/');
+    config.addPassthroughCopy('src/admin')
     config.addPassthroughCopy('src/CNAME');
     config.addWatchTarget('src/img/');
     config.addWatchTarget('src/css');
