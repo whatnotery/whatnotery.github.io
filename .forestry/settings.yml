@@ -5,15 +5,16 @@ admin_path: src/admin/
 webhook_url: 
 sections:
 - type: document
-  path: src/index.html
-  label: Home
+  path: src/_includes/components/about.html
+  label: About
+  match: "**/*"
 - type: directory
   path: src/blog
   label: Blog
   create: documents
   match: "**/*"
   exclude: "*.json"
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - blog-post
 - type: directory
@@ -22,7 +23,7 @@ sections:
   create: documents
   match: "**/*"
   exclude: "*.json"
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - portfolio-item
 upload_dir: src/img
