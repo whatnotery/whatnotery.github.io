@@ -23,3 +23,5 @@ fields:
     required: true
   default: post.njk
   hidden: true
+pages:
+- src/blog/a-little-update-on-things-i-ve-been-working-on-and-a-playlist-for-your-listening-pleasure.md
