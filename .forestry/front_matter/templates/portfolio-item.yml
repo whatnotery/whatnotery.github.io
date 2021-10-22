@@ -33,3 +33,4 @@ pages:
 - src/portfolio/fizzbuzz.md
 - src/portfolio/gradient.md
 - src/portfolio/numberguesser.md
+- src/portfolio/random-film-finder.md
