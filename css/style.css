@@ -24,7 +24,6 @@ header.header {
 header #profpic {
   border-radius: 50%;
   border: #93ffee 5px double;
-  height: 50%;
   width: auto;
 }
 
