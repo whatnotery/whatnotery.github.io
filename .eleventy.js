@@ -16,8 +16,8 @@ module.exports = config => {
       config.addFilter("postDate", (dateObj) => {
         return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
       });
-    config.addPassthroughCopy('src/img/');
-    config.addPassthroughCopy('src/css/');
+    //config.addPassthroughCopy('src/img/');
+    //config.addPassthroughCopy('src/css/');
     config.addPassthroughCopy('src/admin')
     config.addPassthroughCopy('src/CNAME');
     config.addWatchTarget('src/img/');

@@ -8,7 +8,12 @@
       <h1 class="h1">Hi There!</h1>
       <h2 class="header-intro">I'm Jos O'shea, <br>I'm a front end
         developer in Lexington KY.<br>
-        Check out what I've been working on!
+        Check out what I've been 
+        {%- if page.url == '/blog/' %}
+          writing!
+        {%- else %}
+          working on!
+        {%- endif %} 
       </h2>
     </div>
   </header>

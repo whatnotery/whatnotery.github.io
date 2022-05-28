@@ -6,10 +6,12 @@
   <body>
     <div class="container-fluid">
  
-        {% include "components/headerhome.html" %}
-      {% include "components/nav-blog.html" %}
+      {% include "components/header.html" %}
+      {% include "components/nav.html" %}
       <main>
+        {%- if page.url == '/' %}
         {% include "components/about.html" %}
+        {%- endif %}
         {{content | safe }}
 
       </main>
