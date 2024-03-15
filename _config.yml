@@ -4,7 +4,7 @@ title: Jos O'shea
 description: Rubyist & Software Developer
 
 baseurl:  #name of GitHub repository
-url: "joshea.dev" #custom url to be used instead of GitHub repository
+url: #custom url to be used instead of GitHub repository
 email: "hi@joshea.dev" #
 
 # Pagination
