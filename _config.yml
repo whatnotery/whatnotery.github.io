@@ -1,0 +1,68 @@
+### your site title here
+
+title: Jos O'shea
+description: Rubyist & Software Developer
+
+baseurl:  #name of GitHub repository
+url: "joshea.dev" #custom url to be used instead of GitHub repository
+email: "hi@joshea.dev" #
+
+# Pagination
+paginate: 4
+permalink: /blog/:year/:title/
+paginate_path: /blog/page:num/
+
+# Social media links in footer
+linkedin: "jos-oshea"
+github: "whatnotery"
+mastodon: "whatnotery"
+
+
+
+# Markdown
+highlighter: rouge
+markdown: kramdown
+
+# Tracker
+analytics:
+
+# optimization -> compress.html
+compress_html:
+  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
+  comments: ["<!-- ", " -->"]
+  endings: [all]
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []
+
+#collection
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+    order:
+      - kittymap.md
+      - rails_world.md
+      - random_movie_finder.md
+      - project5.md
+      - project6.md
+
+sass:
+  sass_dir: /assets/css/_sass
+  style: compressed
+
+include:
+  - _pages
+  - CNAME
+
+exclude:
+  - README.md
+  - LICENSE.md
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-email-protect
+  - jekyll-target-blank
