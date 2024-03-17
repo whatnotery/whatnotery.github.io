@@ -35,84 +35,17 @@
   font-size: 25px;
 }
 
-.rounded-social-buttons .social-button.facebook {
-  background: #3b5998;
+.rounded-social-buttons .social-button {
+  background: #56acb0;
+  color: #424242;
+  border-color: #424242;
+
 }
 
-.rounded-social-buttons .social-button.facebook:hover,
-.rounded-social-buttons .social-button.facebook:focus {
-  color: #3b5998;
-  background: #fefefe;
-  border-color: #3b5998;
-}
+.rounded-social-buttons .social-button:hover,
+.rounded-social-buttons .social-button:focus {
+  color: #424242;
+  background: #56acb0;
+  border-color: #56acb0;
 
-.rounded-social-buttons .social-button.linkedin {
-  background: #007bb5;
-}
-
-.rounded-social-buttons .social-button.linkedin:hover,
-.rounded-social-buttons .social-button.linkedin:focus {
-  color: #007bb5;
-  background: #fefefe;
-  border-color: #007bb5;
-}
-
-.rounded-social-buttons .social-button.github {
-  background: #000000;
-}
-
-.rounded-social-buttons .social-button.github:hover,
-.rounded-social-buttons .social-button.github:focus {
-  color: #000000;
-  background: #fefefe;
-  border-color: #000000;
-}
-
-.rounded-social-buttons .social-button.mastodon {
-  background: #6364FF;
-}
-
-.rounded-social-buttons .social-button.mastodon:hover,
-.rounded-social-buttons .social-button.mastodon:focus {
-  color: #6364FF;
-  background: #fefefe;
-  border-color: #6364FF;
-}
-
-.rounded-social-buttons .social-button.email {
-  background: #60c17d;
-}
-
-.rounded-social-buttons .social-button.email:hover,
-.rounded-social-buttons .social-button.email:focus {
-  color: #60c17d;
-  background: #fefefe;
-  border-color: #000000;
-}
-
-.rounded-social-buttons .social-button.instagram {
-  color: #ffffff;
-  background: #f09433;
-  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
-}
-
-.rounded-social-buttons .social-button.instagram:hover,
-.rounded-social-buttons .social-button.instagram:focus {
-  color: #a82400;
-  background: #fefefe;
-  border-color: #5dd1b0;
-}
-
-.rounded-social-buttons .social-button.stackoverflow {
-  background: #f48024;
-}
-
-.rounded-social-buttons .social-button.stackoverflow:hover,
-.rounded-social-buttons .social-button.stackoverflow:focus {
-  color: #f48024;
-  background: #fefefe;
-  border-color: #5dd1b0;
 }
