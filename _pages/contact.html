@@ -1,0 +1,27 @@
+---
+title: Contact
+layout: default
+permalink: /contact
+---
+<br>
+<form action="https://api.web3forms.com/submit" method="POST">
+
+    <!-- Replace with your Access Key -->
+    <input type="hidden" name="access_key" value="bc34c812-6fe5-47b7-8c5d-8d4afbaae4d1">
+
+    <!-- Form Inputs. Each input must have a name="" attribute -->
+    <h4>Name:</h4>
+    <input type="text" name="name" required>
+    <h4>Email:</h4>
+    <input type="email" name="email" required>
+    <h4>Message:</h4>
+    <textarea name="message" required></textarea>
+
+    <!-- hCaptcha Spam Protection -->
+    <div class="h-captcha" data-captcha="true"></div>
+
+    <button class="links" type="submit">Send Message</button>
+
+</form>
+<!-- Required for hCaptcha -->
+<script src="https://web3forms.com/client/script.js" async defer></script>

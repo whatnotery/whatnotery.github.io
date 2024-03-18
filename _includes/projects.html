@@ -1,0 +1,19 @@
+<h1>Projects:</h1>
+<div class="">
+    {% for project in site.projects %}
+    <h3> <a href="{{project.url}}" class="project-title">
+            {{project.title}}
+        </a>
+    </h3>
+
+    <img src="{{project.preview_image | relative_url}}" alt="">
+
+    {{project.description}}
+
+    <div class="links">
+        <i class="fas fa-link"></i> <a href={{project.link}}>Link</a>
+        <i class="fab fa-github"></i> <a href={{project.github}}>GitHub</a>
+    </div>
+    <hr>
+    {% endfor %}
+</div>
