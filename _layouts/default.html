@@ -24,8 +24,8 @@
     {% include mathjax.html %}
 
     <!-- Load fontawesome here for faster loadtimes: https://stackoverflow.com/a/35880730/9523246 -->
-    <script
-        type="text/javascript"> (function () { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.11.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
+    <script type="text/javascript"> (function () { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.11.0/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); 
+    </script>
 </head>
 
 <body>
@@ -36,13 +36,14 @@
     </main>
 
     <footer>
+
+        {% include social-footer.html %}
+
         <p class="copy">
             <small>
                 Last updated on {{ site.time | date_to_long_string }}
             </small>
         </p>
-
-        {% include social-footer.html %}
 
     </footer>
 

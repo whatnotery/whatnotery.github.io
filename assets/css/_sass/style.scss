@@ -42,10 +42,41 @@ a {
   }
 }
 
+input,
+textarea,
+button {
+  background-color: $body-bg ;
+  border: none;
+  border-bottom: 1px solid $brand-color ;
+  color: $brand-color;
+  font-family: $base-font-family;
+  font-size: large;
 
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+textarea {
+  width: 15rem;
+  height: 75px;
+}
+
+button {
+  font-size: large;
+}
+
+hr {
+  border: 1px dashed $brand-color;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 
 p a,
-.links a {
+.links a,
+.project-title {
   color: $text-color;
   text-decoration: none;
   background: -webkit-linear-gradient(transparent 90%, lighten($brand-color, 10%) 10%);
