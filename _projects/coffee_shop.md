@@ -5,6 +5,7 @@ description: a mock website for a coffeeshop using exclusively vanilla CSS and J
 link: https://joshea.dev/coffeeshop/
 github: https://github.com/whatnotery/coffeeshop
 preview_image: /assets/images/projects/coffeeshop/menu.png
+order: 3
 
 ---
 

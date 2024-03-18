@@ -5,6 +5,7 @@ description: Creates a random background CSS gradient & adds the style to the pa
 link: https://joshea.dev/randomgradient/
 github: https://github.com/whatnotery/randomgradient
 preview_image: assets/images/projects/random_gradient/page.png
+order: 5
 
 ---
 

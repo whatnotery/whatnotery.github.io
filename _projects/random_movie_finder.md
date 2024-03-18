@@ -5,6 +5,7 @@ description: A web app and phone number you can text for movie reccomendations
 link: https://joshea.dev/randommovie/
 github: https://github.com/whatnotery/randommovie
 preview_image: /assets/images/projects/random_movie_finder/index_page.png
+order: 4
 ---
 
 A web app and [phone number](tel:18145644614) you can text for movie reccomendations
