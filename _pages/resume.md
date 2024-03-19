@@ -6,14 +6,12 @@ published: true
 ---
 
 ---
-
 ## CAREER OBJECTIVE:
 ---
 
 To pursue roles that allow me to further develop my skills and leverage my experience as a software engineer to solve interesting problems and create engaging and dynamic software products.
 
 ---
-
 ## EXPERIENCE
 ---
 ### Developer
@@ -31,7 +29,6 @@ January 2022 - Present
 **Tools:** Ruby on Rails, JavaScript, Rspec, GitHub, PostgreSQL, Heroku, CircleCI
 
 ---
-
 ### Contract Developer
 
 **The Rails Foundation**
@@ -45,7 +42,6 @@ January 2024
 **Tools:** JekylI, SASS, HTML, GitHub
 
 ---
-
 ### Contract Developer
 
 **Adopt the Web**
@@ -59,7 +55,6 @@ April 2023 - June 2023
 **Tools:** Ruby on Rails, PHP, JavaScript, Railway, GitHub,
 
 ---
-
 ### IT Support Agent
 
 **University of Kentucky**
@@ -74,7 +69,6 @@ July 2013 - December 2021
 **Tools:** ServiceNow, Active Directory, JAMF, Cisco Jabber, Canvas
 
 ---
-
 ### Contract Web Content Specialist
 
 **Broomwagon Bikes**
@@ -95,7 +89,7 @@ March 2019 - March 2020
 - JavaScript
 - HTML & CSS
 - PostgreSQL
-- Git& Github
+- Git & Github
 - Unix based CLI
 
 ---
@@ -116,7 +110,6 @@ March 2019 - March 2020
 Computer & Information Technologies
 
 ---
-
 ## CONTACT
 ---
 [(859)951-8649](tel:(859)951-8649) || [hi@joshea.dev](mailto:hi@joshea.dev)
