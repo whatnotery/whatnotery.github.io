@@ -12,3 +12,5 @@ KittyMap.app is a full stack Ruby on Rails application for geotagging cat sighti
 
 ![example image]({{ '/assets/images/projects/kittymap/index_page.png' | relative_url }} "A screenshot of the home page for kittymap.app")
 
+![example image]({{ '/assets/images/projects/kittymap/cat_show.png' | relative_url }} "A screenshot of the home page for kittymap.app")
+
