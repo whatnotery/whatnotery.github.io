@@ -7,10 +7,9 @@ profile:
 published: true
 ---
 
-After coding on and off since I was a teenanger I spent the better part of a decade doing I.T. support at an enterprise level. During that time I encountered so many problems that could've been resolved with better code. Being in the situation of helping people navigate through bad user experiences and using lack luster internal tools to do so left a bad taste in my mouth and made me want to solve those problems.
+As a driven problem-solver and creative, I gravitated towards computers and programming beginning in my teenage years — I remember the joy I felt opening my first local HTML file of a simple `<h1>` and `<p>` tag and later writing small extensions for open-source software to automate repetitive tasks. I continued developing my trouble-shooting abilities, analytical thinking, and mindfulness of the user experience over my nearly decade of experience in IT support at an enterprise level. Much of my experience in IT inspired me to focus on creating better software experiences for end-users that aren’t bug-laden, clunky, and unintuitive.  
 
-In 2021, I started coding seriously with the intention of being able to create tools and experiences that are useful and meaningful for their users. I started at Bitwerx in 2022 as a Support Engineer role and in 2023 was promoted to a Software Engineering role.
+Following my career in IT, I pivoted to software engineering where I developed my skills in Ruby and JavaScript leading me to take on a position as a support engineer at a veterinary technology company. In less than a year, I started development work at the company and was later promoted to a software development role. As I’ve worked in this role, I’ve refined my skills in Ruby on Rails, testing with RSpec and Capybara, frontend development with Svelte, and even a little bit of C#.
 
-
-
+When I’m not programming, I find joy in being outside (walking, hiking, or cycling), listening to my [record collection](https://www.discogs.com/user/whatnotery), drinking natural wines, spending time with my partner, and serving on the board of directors of my [local bike co-op.](https://www.thebrokespoke.org/) 
 
