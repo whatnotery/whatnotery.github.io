@@ -17,18 +17,15 @@ linkedin: "jos-oshea"
 github: "whatnotery"
 mastodon: "whatnotery"
 
-
-
 # Markdown
 highlighter: rouge
 markdown: kramdown
 
 # Tracker
-analytics:
-  jekyll_analytics:
-    GoogleAnalytics:
-      id: G-5ZQ5WLS04C
-      anonymizeIp: false 
+jekyll_analytics:
+  GoogleAnalytics:
+    id: G-5ZQ5WLS04C
+    anonymizeIp: false 
 
 # optimization -> compress.html
 compress_html:
