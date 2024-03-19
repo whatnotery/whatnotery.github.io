@@ -3,7 +3,7 @@
 title: Jos O'shea
 description: Rubyist & Software Developer
 
-baseurl:  #name of GitHub repository
+baseurl: #name of GitHub repository
 url: #custom url to be used instead of GitHub repository
 email: "hi@joshea.dev" #
 
@@ -17,14 +17,9 @@ linkedin: "jos-oshea"
 github: "whatnotery"
 mastodon: "whatnotery"
 
-
-
 # Markdown
 highlighter: rouge
 markdown: kramdown
-
-# Tracker
-analytics:
 
 # optimization -> compress.html
 compress_html:
@@ -67,3 +62,4 @@ plugins:
   - jekyll-paginate
   - jekyll-email-protect
   - jekyll-target-blank
+

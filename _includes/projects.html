@@ -1,6 +1,8 @@
-<h1>Projects:</h1>
-<div class="">
-    {% for project in site.projects %}
+<div id="projects">
+
+    <h1>Projects:</h1>
+    {% assign sorted_projects = site.projects | sort: 'order' %}
+    {% for project in sorted_projects %}
     <h3> <a href="{{project.url}}" class="project-title">
             {{project.title}}
         </a>
