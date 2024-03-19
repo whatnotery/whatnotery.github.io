@@ -19,6 +19,7 @@ To pursue roles that allow me to further develop my skills and leverage my exper
 ### Developer
 
 **Bitwerx**
+
 January 2022 - Present
 
 - Collaborated with a remote team using agile practices
@@ -34,6 +35,7 @@ January 2022 - Present
 ### Contract Developer
 
 **The Rails Foundation**
+
 January 2024
 
 - Developed landing page for the Rails World 2024 conference
@@ -47,6 +49,7 @@ January 2024
 ### Contract Developer
 
 **Adopt the Web**
+
 April 2023 - June 2023
 
 - Developed a greenfield Ruby on Rails microservice for a leading farm equipment manufacturer that scaled to 70k in monthly traffic
@@ -60,6 +63,7 @@ April 2023 - June 2023
 ### IT Support Agent
 
 **University of Kentucky**
+
 July 2013 - December 2021
 
 - Identified technical issues & provided solutions to restore functionality
@@ -74,7 +78,8 @@ July 2013 - December 2021
 ### Contract Web Content Specialist
 
 **Broomwagon Bikes**
-March 2019 - March 2020}
+
+March 2019 - March 2020
 
 - Collaborated with management to achieve up-to-date website content.
 - Formatted posts with HTML, & CSS
