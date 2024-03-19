@@ -11,5 +11,5 @@ As a driven problem-solver and creative, I gravitated towards computers and prog
 
 Following my career in IT, I pivoted to software engineering where I developed my skills in Ruby and JavaScript leading me to take on a position as a support engineer at a veterinary technology company. In less than a year, I started development work at the company and was later promoted to a software development role. As I’ve worked in this role, I’ve refined my skills in Ruby on Rails, testing with RSpec and Capybara, frontend development with Svelte, and even a little bit of C#.
 
-When I’m not programming, I find joy in being outside (walking, hiking, or cycling), listening to my [record collection](https://www.discogs.com/user/whatnotery), drinking natural wines, spending time with my partner, and serving on the board of directors of my [local bike co-op.](https://www.thebrokespoke.org/) 
+When I’m not coding, I find joy in being outside (walking, hiking, or cycling), listening to my [record collection](https://www.discogs.com/user/whatnotery), drinking natural wines, spending time with my partner, and serving on the board of directors of my [local bike co-op.](https://www.thebrokespoke.org/) 
 
