@@ -21,12 +21,6 @@ mastodon: "whatnotery"
 highlighter: rouge
 markdown: kramdown
 
-# Tracker
-jekyll_analytics:
-  GoogleAnalytics:
-    id: G-5ZQ5WLS04C
-    anonymizeIp: false 
-
 # optimization -> compress.html
 compress_html:
   clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
@@ -68,5 +62,4 @@ plugins:
   - jekyll-paginate
   - jekyll-email-protect
   - jekyll-target-blank
-  - jekyll-analytics
 
