@@ -1,7 +1,7 @@
 ---
 layout: project
 title: KittyMap.app
-description: A Ruby on Rails app for geotagging outdoor cat sightings
+description: A full-stack Ruby on Rails app for geotagging outdoor cat sightings
 link: http://kittymap.app
 github: https://github.com/whatnotery/kittymap.app
 preview_image: /assets/images/projects/kittymap/index_page.png

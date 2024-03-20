@@ -39,7 +39,7 @@ January 2024
 - Rapidly learned new framework to meet project deadlines
 - Practiced self-directed time management to complete the project substantially ahead of the deadline
 
-**Tools:** JekylI, SASS, HTML, GitHub
+**Tools:** Jekyll, SASS, HTML, GitHub
 
 ---
 ### Contract Developer
