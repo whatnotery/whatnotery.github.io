@@ -112,6 +112,3 @@ Computer & Information Technologies
 ---
 ## CONTACT
 ---
-[(859)951-8649](tel:(859)951-8649) || [hi@joshea.dev](mailto:hi@joshea.dev)
-
-

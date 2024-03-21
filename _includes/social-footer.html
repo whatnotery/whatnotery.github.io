@@ -1,9 +1,18 @@
 <div class="rounded-social-buttons">
 
+
+
     {%- if site.email -%}
     <a title="{{ _locale_string_email }}" class="social-button email" itemprop="email"
         href="mailto:{{ site.email | encode_email }}" target="_blank">
         <i class="far fa-envelope"></i>
+    </a>
+    {%- endif -%}
+
+    {%- if site.phone -%}
+    <a title="{{ _locale_string_tel }}" class="social-button sms" itemprop="tel" href="tel:{{ site.phone}}"
+        target="_blank">
+        <i class="fa fa-phone"></i>
     </a>
     {%- endif -%}
 

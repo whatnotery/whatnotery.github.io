@@ -6,7 +6,7 @@ description: Rubyist & Software Developer
 baseurl: #name of GitHub repository
 url: #custom url to be used instead of GitHub repository
 email: "hi@joshea.dev" #
-
+phone: +1(859)9518649
 # Pagination
 paginate: 4
 permalink: /blog/:year/:title/
