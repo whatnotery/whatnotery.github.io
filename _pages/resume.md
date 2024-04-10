@@ -112,3 +112,4 @@ Computer & Information Technologies
 ---
 ## CONTACT
 ---
+*pdf available [here]({{ '/assets/Resume-2024.pdf' | relative_url }})*
