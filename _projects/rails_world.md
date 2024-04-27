@@ -5,7 +5,7 @@ description: A landing page commisioned by The Rails Foundation
 link: https://rubyonrails.org/world/2024
 github: https://github.com/whatnotery/website
 preview_image: /assets/images/projects/rails_world/landing_page.png
-order: 2
+order: 3
 ---
 
 A landing page commisioned by [The Rails Foundation](https://rubyonrails.org/foundation){:target="_blank"} for Rails World 2024
