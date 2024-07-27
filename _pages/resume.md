@@ -6,19 +6,20 @@ published: true
 ---
 
 ---
-## CAREER OBJECTIVE:
+## PROFESSIONAL SUMMARY:
 ---
 
-To pursue roles that allow me to further develop my skills and leverage my experience as a software engineer to solve interesting problems and create engaging and dynamic software products.
+Enthusiastic and results-driven Ruby developer passionate about writing thoughtful and effective code. Skilled with multiple Ruby frameworks including Rails, Jekyll, and Bridgetown. Experienced with front-end JavaScript frameworks like React and Svelte and CSS libraries like Tailwind and Bootstrap.
 
 ---
 ## EXPERIENCE
 ---
 ### Developer
 
-**Bitwerx**
-
 January 2022 - Present
+
+
+**Bitwerx**
 
 - Collaborated with a remote team using agile practices
 - Monitored data platform for performance issues and triaged as necessary
@@ -31,9 +32,20 @@ January 2022 - Present
 ---
 ### Contract Developer
 
-**The Rails Foundation**
+ongoing
 
-January 2024
+**Darling Wine Bar**
+
+- Developed brochure site for Darling Wine Bar
+- Integrated Google Calendar and GithHub actions to update the calendar of
+events on a set schedule
+- Effectively estimated time requirements for project and completed project in
+said timeline
+
+**Tools:** Jekyll, Tailwind, HTML, GitHub
+
+
+**The Rails Foundation**
 
 - Developed landing page for the Rails World 2024 conference
 - Rapidly learned new framework to meet project deadlines
@@ -41,12 +53,7 @@ January 2024
 
 **Tools:** Jekyll, SASS, HTML, GitHub
 
----
-### Contract Developer
-
 **Adopt the Web**
-
-April 2023 - June 2023
 
 - Developed a greenfield Ruby on Rails microservice for a leading farm equipment manufacturer that scaled to 70k in monthly traffic
 - Collaborated remotely and asynchronously with project managers and other developers to ensure milestones were met
@@ -57,9 +64,10 @@ April 2023 - June 2023
 ---
 ### IT Support Agent
 
+July 2013 - December 2021
+
 **University of Kentucky**
 
-July 2013 - December 2021
 
 - Identified technical issues & provided solutions to restore functionality
 - Developed documentation
@@ -71,9 +79,10 @@ July 2013 - December 2021
 ---
 ### Contract Web Content Specialist
 
+March 2019 - March 2020
+
 **Broomwagon Bikes**
 
-March 2019 - March 2020
 
 - Collaborated with management to achieve up-to-date website content.
 - Formatted posts with HTML, & CSS
