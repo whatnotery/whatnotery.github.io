@@ -1,6 +1,7 @@
 ---
+title: Home They Brought Her Warrior Dead
+date: 2020-03-09 00:00:00 Z
 layout: post
-title: Home They Brought Her Warrior Dead 
 ---
 
 Home they brought her warrior dead:  

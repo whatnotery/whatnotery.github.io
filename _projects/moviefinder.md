@@ -1,10 +1,11 @@
 ---
-layout: project
 title: MovieFinder.club
-description: A web app and phone number you can text for movie recommendations built with Ruby on Rails with integrations to Twilio and TMDB.org
+layout: project
+description: A web app and phone number you can text for movie recommendations built
+  with Ruby on Rails with integrations to Twilio and TMDB.org
 link: https://moviefinder.club
 github: https://github.com/whatnotery/MovieFinder.club
-preview_image: /assets/images/projects/moviefinder.club/index_page.png
+preview_image: "/assets/images/projects/moviefinder.club/index_page.png"
 order: 0
 ---
 

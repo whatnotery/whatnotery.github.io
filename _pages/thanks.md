@@ -1,7 +1,7 @@
 ---
 title: Thanks!
+permalink: "/thanks"
 layout: clean
-permalink: /thanks
 ---
 
 ## Thanks for reaching out

@@ -1,65 +1,86 @@
-### your site title here
-
+---
 title: Jos O'shea
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  projects:
+    title: Projects
+    output: true
+    permalink: "/projects/:name/"
+    order:
+    - kittymap.md
+    - rails_world.md
+    - coffee_shop.md
+    - random_movie_finder.md
+    - gradient_generator.md
+  uploads:
+    title: Uploads
+    output: true
 description: Rubyist & Software Developer
-
-baseurl: #name of GitHub repository
-url: #custom url to be used instead of GitHub repository
-email: "hi@joshea.dev" #
-phone: +1(859)9518649
-# Pagination
+baseurl: 
+url: 
+email: hi@joshea.dev
+phone: "+1(859)9518649"
 paginate: 4
-permalink: /blog/:year/:title/
-paginate_path: /blog/page:num/
-
-# Social media links in footer
-linkedin: "jos-oshea"
-github: "whatnotery"
-mastodon: "whatnotery"
-
-# Markdown
+permalink: "/blog/:year/:title/"
+paginate_path: "/blog/page:num/"
+linkedin: jos-oshea
+github: whatnotery
+mastodon: whatnotery
 highlighter: rouge
 markdown: kramdown
-
-# optimization -> compress.html
 compress_html:
-  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
-  comments: ["<!-- ", " -->"]
-  endings: [all]
+  clippings:
+  - html
+  - div
+  - p
+  - ul
+  - td
+  - h1
+  - h2
+  - h3
+  - h4
+  - link
+  - meta
+  - footer
+  - nav
+  - img
+  - header
+  - hr
+  - br
+  - head
+  - style
+  - li
+  - ul
+  - ol
+  - time
+  - main
+  - script
+  - title
+  comments:
+  - "<!-- "
+  - " -->"
+  endings:
+  - all
   ignore:
-    envs: [local]
+    envs:
+    - local
   blanklines: false
   profile: false
   startings: []
-
-#collection
-collections:
-  projects:
-    output: true
-    permalink: /projects/:name/
-    order:
-      - kittymap.md
-      - rails_world.md
-      - coffee_shop.md
-      - random_movie_finder.md
-      - gradient_generator.md
-     
-
 sass:
-  sass_dir: /assets/css/_sass
+  sass_dir: "/assets/css/_sass"
   style: compressed
-
 include:
-  - _pages
-  - CNAME
-
+- _pages
+- CNAME
 exclude:
-  - README.md
-  - LICENSE.md
-
+- README.md
+- LICENSE.md
 plugins:
-  - jekyll-seo-tag
-  - jekyll-paginate
-  - jekyll-email-protect
-  - jekyll-target-blank
-
+- jekyll-seo-tag
+- jekyll-paginate
+- jekyll-email-protect
+- jekyll-target-blank

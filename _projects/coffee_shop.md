@@ -1,12 +1,11 @@
 ---
-layout: project
 title: Coffee Shop Website
+layout: project
 description: a mock website for a coffeeshop using exclusively vanilla CSS and JS
 link: https://joshea.dev/coffeeshop/
 github: https://github.com/whatnotery/coffeeshop
-preview_image: /assets/images/projects/coffeeshop/menu.png
+preview_image: "/assets/images/projects/coffeeshop/menu.png"
 order: 3
-
 ---
 
 a mock website for a coffeeshop using exclusively vanilla CSS and JS

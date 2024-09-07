@@ -1,12 +1,11 @@
 ---
-layout: project
 title: Darling Wine Bar
+layout: project
 description: a website for Darling Wine Bar utilizing Jekyll and Tailwind CSS
 link: https://www.darlingwinebar.com/
 github: https://github.com/whatnotery/darlingwebsite
-preview_image: /assets/images/projects/darling/website_preview.png
+preview_image: "/assets/images/projects/darling/website_preview.png"
 order: 1.5
-
 ---
 
 a website for Darling Wine Bar in Lexington, KY utilizing Jekyll and Tailwind CSS

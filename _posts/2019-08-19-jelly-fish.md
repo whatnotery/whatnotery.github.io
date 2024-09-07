@@ -1,6 +1,7 @@
 ---
+title: A Jelly-Fish
+date: 2019-08-19 00:00:00 Z
 layout: post
-title:  A Jelly-Fish
 ---
 
 Visible, invisible,  

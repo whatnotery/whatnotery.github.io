@@ -1,10 +1,10 @@
 ---
-layout: project
 title: KittyMap.app
+layout: project
 description: A full-stack Ruby on Rails app for geotagging outdoor cat sightings
 link: http://kittymap.app
 github: https://github.com/whatnotery/kittymap.app
-preview_image: /assets/images/projects/kittymap/index_page.png
+preview_image: "/assets/images/projects/kittymap/index_page.png"
 order: 2
 ---
 

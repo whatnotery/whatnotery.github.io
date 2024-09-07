@@ -1,8 +1,7 @@
 ---
 title: Jos O'shea's Resume
+permalink: "/resume/"
 layout: default
-permalink: /resume/
-published: true
 ---
 
 ---
