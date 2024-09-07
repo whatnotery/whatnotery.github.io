@@ -1,6 +1,6 @@
 ---
 title: Jos O'shea
-timezone: UTC
+timezone: America/New_York
 collections:
   posts:
     title: Posts
@@ -69,7 +69,6 @@ compress_html:
     - local
   blanklines: false
   profile: false
-  startings: []
 sass:
   sass_dir: "/assets/css/_sass"
   style: compressed
