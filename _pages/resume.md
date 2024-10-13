@@ -15,7 +15,7 @@ Enthusiastic and results-driven Ruby developer passionate about writing thoughtf
 ---
 ### Developer
 
-January 2022 - Present
+January 2022 - September 2024
 
 
 **Bitwerx**
@@ -30,8 +30,6 @@ January 2022 - Present
 
 ---
 ### Contract Developer
-
-ongoing
 
 **Darling Wine Bar**
 
